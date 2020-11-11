@@ -1,1 +1,1 @@
-http://desnecesauron.github.io/index.html
+http://desnecesauron.github.io/
