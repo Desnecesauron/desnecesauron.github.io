@@ -1,0 +1,285 @@
+#mae{
+    position: absolute;
+    left:70px;
+    width: 1200px;
+    background-color: gray;
+    
+}
+body {
+   
+    width:1200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+    font: "Arial";
+ }
+  p{
+    color: black;
+    font-size: 30px;
+    font: "Arial";
+    text-align: center;
+ }
+ 
+ h4{
+    color: black;
+    font-size: 16px;
+    font: "Arial";
+    text-align: center;
+ }
+
+
+h6{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font: "Arial";
+    text-align: justify-all;
+}
+span
+{
+    text-align: center;
+}
+
+ 
+
+.img_principal{
+    position: absolute;
+    left: 8%;
+    top: 5%;
+}
+.corpo{
+    width: 1200px;
+    position: absolute;
+    margin-top: 0 auto;
+   
+    border-top: 5px solid rgb(255,0,0);
+    margin-bottom: 0 auto;
+    
+}
+
+.grid-devs
+{
+    display: grid;
+    grid-template-columns: 115px 881px;
+    grid-template-rows: 115px;
+    grid-row-gap: 10px;
+    grid-column-gap: 2px;
+}
+.grid-devs-item
+{
+    border: 3px solid #a20000;
+  border-radius: 2px;
+  font-size: 20px;
+  position: relative;
+    left:20px;
+    padding: 5px;
+}
+.devs
+{
+    position: absolute;
+    top: 21%;
+    left: 6%;
+}
+
+.rodape{
+    position: absolute;
+    width: 1200px;
+    left: 0%;
+    background-color: grey;
+    margin-top: 0 auto;
+ border-bottom: 5px solid rgb(255,0,0);
+    border-top: 5px solid rgb(255,0,0);
+    margin-bottom: 0 auto;
+}
+
+.dev{
+    background-color: darkturquoise;
+}
+
+
+.comprar{
+    background-color: darkseagreen;
+}
+
+
+.links{
+    background-color: pink;
+}
+
+.voltar{
+    text-align: right;
+    color: white; 
+    position: relative;
+    right: 2px;
+}
+.temp img{
+ 
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.temp a{
+  float: left;
+  text-align: left;
+}
+.topnav {
+    
+    width: 1200px;
+  background-color: #a20000;
+  overflow: hidden;
+  text-align: center;
+  font-family: arial;
+}
+
+.topnav a 
+{
+  
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+  padding: 12px;
+}
+
+
+.topnav a:hover {
+  background-color: #710505;
+  color: white;
+}
+
+
+.topnav a.active {
+  background-color: #7D0404;
+  color: white;
+}
+
+.baixonav {
+  background-color: #a20000;
+  overflow: hidden;
+  text-align: center;
+  font-family: arial;
+    width: 1200px;
+     border-top: 5px solid rgb(255,0,0);
+}
+
+.baixonav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+  padding: 12px;
+  
+  
+   
+}
+
+
+.grid-principal{
+    display: grid;
+    grid-template-columns: 365px 794px;
+    grid-template-rows: 315px;
+    grid-row-gap: 10px;
+    grid-column-gap: 2px;
+   
+   
+}
+.grid-item{
+
+ 
+  border: 3px solid #a20000;
+  border-radius: 2px;
+  font-size: 20px;
+  position: relative;
+    left:20px;
+    padding: 5px;
+  
+}
+
+
+.baixonav a:hover {
+  background-color: #710505;
+  color: white;
+}
+
+
+.baixonav a.active {
+  background-color: #7D0404;
+  color: white;
+}
+.texto-index{
+    text-align: right;
+}
+.video
+{
+    position: absolute;
+    left: 27%;
+}
+.form
+{
+    position: absolute;
+    top: 25%;
+    left: 13%;
+    color: white;
+}
+
+.texto-img_principal
+{
+    position: absolute;
+    top: 22%;
+    left: 8%;
+}
+.grid-comprar
+{
+     display: grid;
+    grid-template-columns: 880px;
+    grid-template-rows: 50px;
+    grid-row-gap: 2px;
+    grid-column-gap: 5px;
+}
+.item-comprar
+{
+     border: 3px solid #a20000;
+  border-radius: 2px;
+  font-size: 20px;
+  position: relative;
+    left:0px;
+    padding: 10px;
+}
+
+.botoes input
+{
+    position: relative;
+    left: 42%;
+}
+.grid-links
+{
+     display: grid;
+    grid-template-columns: 125px 870px;
+    grid-template-rows: 125px;
+    grid-row-gap: 2px;
+    grid-column-gap: 2px;
+}
+.grid-links-item
+{
+    border: 3px solid #a20000;
+  border-radius: 2px;
+  font-size: 20px;
+  position: relative;
+    left:0px;
+    padding: 10px;
+}
+.bandeiras
+{
+    position: absolute;
+    top:27%;
+    left: 8%;  
+}
