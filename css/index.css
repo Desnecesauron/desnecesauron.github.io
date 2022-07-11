@@ -5,6 +5,13 @@ body
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
 
+
+
+.img_me
+{
+    height: 30vw;
+}
+
 .fixeds
 {
     display: flex;
@@ -35,7 +42,23 @@ body
     height: 40px;
 }
 
-.img_me
+
+.bottom_bar a
 {
-    height: 30vw;
+    transition: 0.4s;
+    color: #4c40d8;
+}
+
+.bottom_bar a:hover
+{
+    background-color: #4c40d8;
+    color: #000633;
+    transition: 0.5s;
+}
+
+.bottom_bar a:active
+{
+    background-color: #4c40d8;
+    color: #000633;
+    transition: 0.5s;
 }
