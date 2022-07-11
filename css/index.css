@@ -1,0 +1,41 @@
+
+body
+{
+    background-color: #B4BEC9;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+.fixeds
+{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #000633;
+    background-position: center;
+    margin: -8px;
+    margin-bottom: 10px;
+    border: 0;
+    color: #4c40d8;
+    position: fixed;
+    width: 100%;
+    font-size: calc(1.1vw + 16px);
+}
+
+.top_bar
+{
+    height: 65px;
+}
+
+.bottom_bar
+{
+    bottom: -10px;
+    height: 40px;
+}
+
+.img_me
+{
+    height: 30vw;
+}
