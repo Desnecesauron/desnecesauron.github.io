@@ -1,3 +1,4 @@
+/*
 function downloadThat() {
     
     //const require = createRequire(import.meta.url);
@@ -11,17 +12,18 @@ function downloadThat() {
     //response.pipe(file);
 
     // after download completed close filestream
-    /*file.on("finish", () => {
+    file.on("finish", () => {
         file.close();
         console.log("Download Completed");
     });
-    });*/
+    });
 
 }
-
-
+*/
+/*
 function downloadThatCT() {
     
     const request = fetch("/README.md")
 
 }
+*/
