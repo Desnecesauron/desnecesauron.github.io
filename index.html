@@ -8,42 +8,42 @@
     <title>Portfolio - Cesar Sampaio</title>
 
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/menu_hamburger.css">
     <script type="text/javascript" src="js/download.js"></script>
 
 </head>
 <body>
-    
-    <div class="top_bar fixeds">
-        Welcome -> { console.log('Hello World!') }
+
+    <!-- MENU SIDEBAR -->
+    <div class="menu-hamburger">
+        <input id="menu_toggle" type="checkbox"/>
+        <label class="menu_btn" for="menu_toggle">
+            <span></span>
+        </label>
+
+        <ul class="menu_box">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://github.com/Desnecesauron/desnecesauron.github.io/raw/main/CVCesar.pdf" target="_top">C.V.</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
     </div>
 
-    <div style="padding-top: calc(1% + 90px);">
+    <!-- SITE -->
+    
+    <div class="bottom_bar fixeds">
+        <!--Welcome -> { console.log('Hello World!') } -->
+        Cesar S. Gomes aka Desnecesauron
+    </div>
+
+
+
+    <div style="padding-top: calc(1% + 10px);">
         Who am i?
     </div>
 
     <div>
         <img src="/imgs/photo_my_square.jpg" class="img_me">
-    </div>
-    
-
-    <div class="bottom_bar fixeds">
-        <table style="flex: auto;">
-            <tr>
-                <td>
-                    <a href="index.html">Home</a>
-                </td>
-
-                <td>
-                    <!-- <a href="cv.html">C.V.</a> -->
-                    <a href="https://github.com/Desnecesauron/desnecesauron.github.io/raw/main/CVCesar.pdf" target="_top" /*onclick="downloadThat();"*/>C.V.</a>
-                </td>
-
-                <td>
-                    <a href="contact.html" /*onclick="downloadThatCT();"*/>Contact</a>
-                </td>
-                
-            </tr>
-        </table>
     </div>
 
 </body>
