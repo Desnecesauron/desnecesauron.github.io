@@ -39,23 +39,3 @@ body
     bottom: -10px;
     height: 40px;
 }
-
-.bottom_bar a
-{
-    transition: 0.4s;
-    color: #4c40d8;
-}
-
-.bottom_bar a:hover
-{
-    background-color: #4c40d8;
-    color: #000633;
-    transition: 0.5s;
-}
-
-.bottom_bar a:active
-{
-    background-color: #4c40d8;
-    color: #000633;
-    transition: 0.5s;
-}
