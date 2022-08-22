@@ -11,7 +11,7 @@ body
 .textsLeft
 {
     white-space: pre-line;
-    top: calc(32vw + 30px);
+    top: calc(27vw + 30px);
     position: absolute;
     z-index: 0;
     left: 5px;
@@ -56,7 +56,7 @@ body
     color: #4c40d8;
     position: fixed;
     width: 100%;
-    font-size: calc(1.1vw + 16px);
+    font-size: calc(1.1vw + 12px);
 }
 
 .top_bar
@@ -67,7 +67,7 @@ body
 .bottom_bar
 {
     bottom: -10px;
-    height: 40px;
+    height: 30px;
 }
 
 .getOutFixed
