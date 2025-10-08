@@ -1,70 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-T">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imgs/icon.png">
-    <title>Portfolio - Cesar Sampaio</title>
-
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/menu_hamburger.css">
-
+    <title>Portfolio - Cesar Sampaio Gomes</title>
+    <link rel="stylesheet" href="css/new_style.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>Cesar Sampaio Gomes</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#education">Educação</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </header>
 
-    <div class = "verticalLine"></div>
-    
-    <!-- MENU SIDEBAR -->
-    <div class="menu-hamburger" style="width: 50px; height: 27px; outline: auto; position: fixed; background: #bfbfbf; z-index: 2;">
-        <input id="menu_toggle" type="checkbox"/>
-        <label class="menu_btn" for="menu_toggle">
-            <span></span>
-        </label>
+    <section id="about" class="container">
+        <img src="imgs/photo_my_square.jpg" alt="Cesar Sampaio Gomes" class="profile-pic">
+        <div class="about-text">
+            <h2>Sobre Mim</h2>
+            <p>Apaixonado por programação, Técnico em informática formado pelo Colégio Técnico Industrial "Prof. Isaac Portal Roldán" de Bauru, atualmente cursando Ciência da Computação pela Unisagrado (Centro Universitário Sagrado Coração)</p>
+            <p>Meus hobbies são estudar programação, entender erros de algum site enquanto uso e jogar (principalmente tentar entender como o jogo foi feito).</p>
+            <p>Minhas experiências ao todo foram sobre Java Spring boot, Maven, Angular, Javascript, Docker, Linux, ELK Stack (Elasticsearch, Logstash e Kibana), testes de automação com Selenium (como também robôs feitos em Python juntamente com a tecnologia citada anteriormente) e Delphi.</p>
+            <p>Atualmente estudando Java e inglês!</p>
+            <p>"Esteja sempre pensando em como você pode fazer melhor!" - Elon Musk</p>
+        </div>
+    </section>
 
-        <ul class="menu_box">
-            <li><a class="menu_item" href="index.html">Home</a></li>
-            <li><a class="menu_item" href="https://github.com/Desnecesauron/desnecesauron.github.io/raw/main/CVCesar.pdf" target="_top">C.V.</a></li>
-            <li><a class="menu_item" href="contact.html">Contact</a></li>
+    <section id="skills" class="container">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>XML</li>
+            <li>Inglês</li>
+            <li>Gramática da língua inglesa</li>
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>Angular</li>
+            <li>Javascript</li>
+            <li>Docker</li>
+            <li>Linux</li>
+            <li>ELK Stack</li>
+            <li>Selenium</li>
+            <li>Python</li>
+            <li>Delphi</li>
         </ul>
+    </section>
 
-    </div>
+    <section id="experience" class="container">
+        <h2>Experiência</h2>
+        <div class="job">
+            <h3>Lecom Tecnologia</h3>
+            <p><strong>Programador Jr</strong> (Dezembro 2024 - Presente)</p>
+        </div>
+        <div class="job">
+            <h3>Mstech</h3>
+            <p><strong>Desenvolvedor Full Stack Jr (Java/Angular)</strong> (Junho 2023 - Outubro 2024)</p>
+            <ul>
+                <li>Continuação das atividades anteriormente exercidas como estagiário;</li>
+                <li>Desenvolvimento de site para adição, alteração e exclusão de configurações e API para obter dados de configuração corretos de acordo com cada um dos clientes correspondentes;</li>
+                <li>Desenvolvimento de aplicação bloqueadora de sites escolhidos para terem este efeito;</li>
+                <li>Desenvolvimento de instalador do programa cliente no qual já faz todos os passos automaticamente (desinstalação caso houver antigo, limpar pastas de instalação, instalar na pasta, iniciar programa após instalação).</li>
+            </ul>
+            <p><strong>Estagiário de engenharia de software</strong> (Março 2022 - Junho 2023)</p>
+            <ul>
+                <li>Desenvolvimento de automação de testes para uma aplicação web (Java/Selenium);</li>
+                <li>Aprendizado do uso do Java/Maven, Jmeter, GIT e API GitLab para geração de Issues automáticas caso apontassem erros durante os testes;</li>
+                <li>Gerenciamento de uma equipe de automação de testes para uma aplicação Desktop (e simultaneamente desenvolvendo - Java/Selenium);</li>
+                <li>Criação de Docker para automatização de testes de Jmeter, sendo possível chamar através de um bash file ou batch file;</li>
+                <li>Desenvolvimento de aplicação de análise de logs Java e construção de gráficos e métricas de dados através da ELK stack (ElasticSearch, Logstash e Kibana);</li>
+                <li>Desenvolvimento Java através do Sistema Operacional Linux;</li>
+                <li>Criação de automação para funcionar como serviço Windows capaz de detectar logs com erros das aplicações do sistema da empresa para melhor análise de logs e possíveis falhas críticas do sistema;</li>
+                <li>Desenvolvimento de backend em Java (Springboot) e frontend em Angular para CRUD de treinamento;</li>
+                <li>Correção de bugs no frontend e backend do projeto que participo;</li>
+                <li>Desenvolvimento de novas telas e funcionalidades que foram utilizadas para melhorar o funcionamento primário do projeto (com Springboot e Angular).</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Innovae Brasil Engenharia de Software</h3>
+            <p><strong>Estagiário de engenharia de software</strong> (Fevereiro 2021 - Julho 2021)</p>
+            <ul>
+                <li>Desenvolvimento de uma automação de envio de mensagens de Whatsapp através da linguagem Python com a biblioteca Selenium;</li>
+                <li>Desenvolvimento e manutenção de código web para front-end (HTML, CSS e Javascript);</li>
+                <li>Aprendizado da linguagem Delphi para criação de aplicações Desktop.</li>
+            </ul>
+        </div>
+    </section>
 
-    <!-- SITE -->
+    <section id="education" class="container">
+        <h2>Educação</h2>
+        <div class="education-item">
+            <h3>UNISAGRADO</h3>
+            <p>Bacharelado, Ciência da Computação (Março 2022 - Novembro 2025)</p>
+        </div>
+        <div class="education-item">
+            <h3>Universidade Tecnológica Federal do Paraná</h3>
+            <p>Bacharelado, Ciência da Computação (Setembro 2021 - Janeiro 2022)</p>
+        </div>
+        <div class="education-item">
+            <h3>Colégio Técnico Industrial - "Prof. Isaac Portal Roldán"</h3>
+            <p>Ensino Técnico, Técnico de Informática (Março 2019 - Novembro 2021)</p>
+        </div>
+    </section>
 
-    <div style="padding-top: calc(1% + 25px);">
-        Who am i?
-    </div>
+    <section id="contact" class="container">
+        <h2>Contato</h2>
+        <ul>
+            <li><a href="mailto:cesarsampaiogomes@gmail.com">cesarsampaiogomes@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/cesar-sampaio-gomes" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/Desnecesauron" target="_blank">Github</a></li>
+        </ul>
+    </section>
 
-    <div>
-        <img src="/imgs/photo_my_square.jpg" class="img_me">
-    </div>
-
-    <div class="textsLeft" style="width: 32%;">
-        <a href="https://www.linkedin.com/in/cesar-sampaio-gomes-83198b19a">LinkedIn</a>
-        <a href="https://github.com/Desnecesauron">Github</a>
-        <a href="mailto:cesarsampaiogomes@gmail.com">Mail-me :)</a>
-        <a href="https://www.instagram.com/cesinhaa_03/">Instagram</a>
-
-        Cesar Sampaio Gomes
-        19 years
-    </div>
-
-    <div class="textsRight">
-        <p>I was born in 2003 in Bauru, SP, Brazil.</p>
-        <p>I started the technician course in 2019 during the night, while I was doing my high school full time.</p>
-        <p>During my years only studying I learned the basics of C/C++, HTML, CSS, Js, PHP, C#, SQL, and Java.</p>
-        <p>In the last year of the course, I started to learn about Python, Java/Maven, and the Selenium framework (for Java and Python)</p>
-        <p>Btw, I'm in my first year at university of Computer Science.</p>
-        <p>My experiences in a job are:</p>
-        <p>- trainee for 6 months in Innovae Engenharia de Software, working with Html, CSS, Javascript, and Delphi</p>
-        <p>- trainee for 8 months in MStech <strong>(current)</strong></p>
-    </div>
-    
-    <div class="getOutFixed"></div>
-    <div class="bottom_bar fixeds">
-        <!--Welcome -> { console.log('Hello World!') } -->
-        Cesar S. Gomes aka Desnecesauron
-    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cesar Sampaio Gomes</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>

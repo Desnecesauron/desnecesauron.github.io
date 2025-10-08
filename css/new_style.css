@@ -1,0 +1,139 @@
+/* General Body Styles */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 110px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    padding-top: 110px; /* Add padding to body */
+}
+
+/* Container for consistent layout */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+    position: fixed; /* Make header fixed */
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.progress-container {
+    width: 100%;
+    height: 5px;
+    background: #ccc;
+}
+
+.progress-bar {
+    height: 5px;
+    background: #0779e4;
+    width: 0%;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Experience and Education Section */
+#experience .job, #education .education-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px #ccc dotted;
+}
+
+/* Contact Section */
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
