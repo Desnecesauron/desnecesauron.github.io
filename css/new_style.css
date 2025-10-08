@@ -137,3 +137,57 @@ footer {
     background: #333;
     color: #fff;
 }
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    body {
+        padding-top: 0; /* Remove padding-top */
+    }
+
+    html {
+        scroll-padding-top: 0; /* Remove scroll-padding-top */
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    header {
+        position: static; /* Make header not fixed */
+        padding-top: 15px;
+        min-height: auto;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+        text-align: center;
+        float: none;
+    }
+
+    header nav {
+        text-align: center;
+        float: none;
+        margin-top: 10px;
+    }
+
+    header nav li {
+        display: inline-block;
+        padding: 5px 10px;
+    }
+
+    #about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-pic {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    #skills li {
+        display: block;
+        margin: 5px auto;
+        width: 80%;
+    }
+}
